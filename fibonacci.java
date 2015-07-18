@@ -1,4 +1,4 @@
-public class fibonacci(){
+public class fibonacci{
 	public static void fibo(int n) {
 		int a0=0;	//첫번째 숫자
 		int a1=1;	//두번째 숫자
