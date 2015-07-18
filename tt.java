@@ -1,4 +1,4 @@
-public tt(){
+public class tt(){
 	public static void fibo(int n) {
 		int a0=0;	//첫번째 숫자
 		int a1=1;	//두번째 숫자
@@ -16,5 +16,9 @@ public tt(){
 				a1=a2;
 			}
 		}
+	}
+	
+	public static void main(String[] args){
+		fibo(5);
 	}
 }
