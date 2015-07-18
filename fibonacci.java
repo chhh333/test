@@ -1,4 +1,4 @@
-public class tt(){
+public class fibonacci(){
 	public static void fibo(int n) {
 		int a0=0;	//첫번째 숫자
 		int a1=1;	//두번째 숫자
@@ -19,6 +19,6 @@ public class tt(){
 	}
 	
 	public static void main(String[] args){
-		fibo(5);
+		fibo(5);	//괄호 안에는 원하는 숫자 하지만 int 형이라서 너무 큰 숫자는 에러가 발생할 수 있음
 	}
 }
